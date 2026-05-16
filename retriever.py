@@ -51,7 +51,7 @@ print("BM25 index ready.")
 # ----------------------------------------------------------------------
 # External embedding via Hugging Face Inference API
 # ----------------------------------------------------------------------
-HF_API_URL = "https://api-inference.huggingface.co/models/sentence-transformers/all-MiniLM-L6-v2"
+HF_API_URL = "https://api-inference.huggingface.co/models/BAAI/bge-base-en-v1.5"
 HF_TOKEN = os.environ.get("HF_TOKEN")
 
 def get_embedding(text: str) -> np.ndarray:

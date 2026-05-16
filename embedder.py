@@ -13,10 +13,10 @@ import faiss
 from typing import List, Dict, Any
 
 class EmbeddingBuilder:
-    def __init__(self, model_name: str = "all-MiniLM-L6-v2"):
-        print(f"🔧 Loading embedding model: {model_name} (384 dim)")
+    def __init__(self, model_name: str = "BAAI/bge-base-en-v1.5"):
+        print(f"🔧 Loading embedding model: {model_name} (768 dim)")
         self.model = SentenceTransformer(model_name)
-        self.dim = 384   # same dimension as bge-small
+        self.dim = 768   # same dimension as bge-small
 
     def _make_text(self, item: Dict[str, Any]) -> str:
         name = item.get("name", "")
