@@ -1,16 +1,21 @@
 """
 retriever.py – Hybrid retrieval with RRF, bm25s, and multi‑bucket diverse retrieval.
-Uses bge-small-en-v1.5 (384 dim) for low memory footprint on free tier.
-FAISS index is memory‑mapped to reduce RAM usage.
+Optimised for low memory: MMAP FAISS index, lazy FP16 model, OMP_NUM_THREADS=1.
 """
 
-import pickle
 import os
+import gc
+import pickle
 from collections import defaultdict
-from typing import List, Dict, Any, Optional, Tuple
+from typing import List, Dict, Any, Optional
+
+# Limit OpenMP threads to avoid memory fragmentation
+os.environ["OMP_NUM_THREADS"] = "1"
+
 import numpy as np
 import faiss
 import bm25s
+import torch
 from sentence_transformers import SentenceTransformer, CrossEncoder
 
 # ----------------------------------------------------------------------
@@ -25,7 +30,7 @@ def load_index_and_metadata():
             "Missing retrieval artefacts at 'data/faiss_index.bin' / 'data/assessments_metadata.pkl'.\n"
             "Run scraper.py then embedder.py to generate them before starting the server."
         )
-    # Use memory mapping to keep the index on disk, reducing RAM usage
+    # Memory‑mapped FAISS index – stays on disk, reduces RAM usage
     index = faiss.read_index(INDEX_PATH, faiss.IO_FLAG_MMAP)
     with open(METADATA_PATH, "rb") as f:
         metadata = pickle.load(f)
@@ -45,11 +50,24 @@ BM25_INDEX.index(corpus_tokens)
 print("BM25 index ready.")
 
 # ----------------------------------------------------------------------
-# Pre‑load the embedding model (small version, 384 dim)
+# Lazy load embedding model (only when first needed) + FP16 conversion
 # ----------------------------------------------------------------------
-print("Loading embedding model (bge-small-en-v1.5)…")
-_SEMANTIC_MODEL = SentenceTransformer("BAAI/bge-small-en-v1.5")
-print("Embedding model ready.")
+_SEMANTIC_MODEL = None
+
+def get_semantic_model():
+    global _SEMANTIC_MODEL
+    if _SEMANTIC_MODEL is None:
+        print("Loading embedding model (bge-small-en-v1.5) in FP16 mode...")
+        model = SentenceTransformer("BAAI/bge-small-en-v1.5")
+        # Convert to half precision (FP16) to reduce memory by ~50%
+        model.half()
+        _SEMANTIC_MODEL = model
+        # Force garbage collection to free temporary memory
+        gc.collect()
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        print("Embedding model ready.")
+    return _SEMANTIC_MODEL
 
 # ----------------------------------------------------------------------
 # Reciprocal Rank Fusion (RRF)
@@ -80,8 +98,10 @@ class SHLRetriever:
         return self._cross_encoder
 
     def _semantic_search(self, query: str) -> List[int]:
-        query_emb = _SEMANTIC_MODEL.encode([query], normalize_embeddings=True)
-        scores, indices = FAISS_INDEX.search(query_emb, self.top_k_semantic)
+        model = get_semantic_model()
+        # Encode query with FP16 model (automatically converts to float32 for FAISS)
+        query_emb = model.encode([query], normalize_embeddings=True)
+        scores, indices = FAISS_INDEX.search(query_emb.astype(np.float32), self.top_k_semantic)
         return indices[0].tolist()
 
     def _bm25_search(self, query: str) -> List[int]:
@@ -103,7 +123,6 @@ class SHLRetriever:
                  query: str,
                  test_type: Optional[str] = None,
                  tags: Optional[List[str]] = None) -> List[Dict[str, Any]]:
-        """Standard retrieval (single type or none)."""
         expanded = query
         semantic_ranks = self._semantic_search(expanded)
         bm25_ranks = self._bm25_search(expanded)
@@ -115,7 +134,6 @@ class SHLRetriever:
         for idx, score in candidates:
             item = ASSESSMENTS[idx]
             if test_type:
-                # Split on comma and check exact code to avoid false positives like "A" in "N/A"
                 item_types = [t.strip().upper() for t in item.get("test_type", "").split(",")]
                 if test_type.upper() not in item_types:
                     continue
@@ -142,15 +160,9 @@ class SHLRetriever:
                          skills: Optional[List[str]] = None,
                          top_k_per_type: int = 15,
                          top_k_final: int = 20) -> List[Dict[str, Any]]:
-        """
-        Multi‑bucket diversified retrieval.
-        For each test type in requested_types, retrieve top_k_per_type items that match that type.
-        Merge and interleave to guarantee balanced representation.
-        """
         if not requested_types:
             return self.retrieve(query=base_query, test_type=None, tags=None)
 
-        # Expansion words for each type (soft prompt)
         type_expansion = {
             "P": "personality behavioral opq motivation interpersonal team collaboration",
             "K": "knowledge technical skill proficiency",
@@ -179,7 +191,6 @@ class SHLRetriever:
                     item["_bucket"] = t
                     all_candidates.append(item)
 
-        # Interleave round‑robin to preserve diversity
         buckets = {t: [c for c in all_candidates if c.get("_bucket") == t] for t in requested_types}
         interleaved = []
         max_len = max((len(buckets[t]) for t in requested_types), default=0)
@@ -208,7 +219,7 @@ class SHLRetriever:
 # Quick test when run directly
 # ----------------------------------------------------------------------
 if __name__ == "__main__":
-    print("Testing SHLRetriever (small model) with RRF and bm25s...")
+    print("Testing SHLRetriever (small model, MMAP, FP16)…")
     retriever = SHLRetriever(use_cross_encoder=False)
     query = "Java developer assessment with personality test"
     print(f"Query: {query}")
