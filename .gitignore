@@ -1,6 +1,4 @@
 .env
 __pycache__/
 *.pyc
-data/faiss_index.bin
-data/assessments_metadata.pkl
 .DS_Store
