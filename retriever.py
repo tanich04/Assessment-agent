@@ -17,7 +17,7 @@ import faiss
 import bm25s
 import torch
 from sentence_transformers import SentenceTransformer, CrossEncoder
-
+torch.set_num_threads(1)
 # ----------------------------------------------------------------------
 # Load artefacts once at startup (module level)
 # ----------------------------------------------------------------------
@@ -57,15 +57,13 @@ _SEMANTIC_MODEL = None
 def get_semantic_model():
     global _SEMANTIC_MODEL
     if _SEMANTIC_MODEL is None:
-        print("Loading embedding model (bge-small-en-v1.5) in FP16 mode...")
-        model = SentenceTransformer("BAAI/bge-small-en-v1.5")
-        # Convert to half precision (FP16) to reduce memory by ~50%
-        model.half()
+        print("Loading embedding model (all-MiniLM-L6-v2) in eval mode...")
+        model = SentenceTransformer("all-MiniLM-L6-v2")
+        model.eval()                     # disable dropout, reduce memory
+        model = model.half()             # convert to FP16 (~40 MB)
         _SEMANTIC_MODEL = model
-        # Force garbage collection to free temporary memory
         gc.collect()
-        if torch.cuda.is_available():
-            torch.cuda.empty_cache()
+        torch.cuda.empty_cache() if torch.cuda.is_available() else None
         print("Embedding model ready.")
     return _SEMANTIC_MODEL
 
