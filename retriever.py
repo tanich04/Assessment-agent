@@ -1,6 +1,7 @@
 """
-retriever.py – Hybrid retrieval with RRF, bm25s, and multi‑bucket diverse retrieval.
-Optimised for low memory: MMAP FAISS index, lazy FP16 model, OMP_NUM_THREADS=1.
+retriever.py – Hybrid retrieval with RRF, bm25s, and external embedding API.
+No local embedding model – uses Hugging Face Inference API.
+Memory usage: FAISS (memory‑mapped) + BM25 (~50 MB total).
 """
 
 import os
@@ -9,15 +10,13 @@ import pickle
 from collections import defaultdict
 from typing import List, Dict, Any, Optional
 
-# Limit OpenMP threads to avoid memory fragmentation
 os.environ["OMP_NUM_THREADS"] = "1"
 
 import numpy as np
 import faiss
 import bm25s
-import torch
-from sentence_transformers import SentenceTransformer, CrossEncoder
-torch.set_num_threads(1)
+import requests
+
 # ----------------------------------------------------------------------
 # Load artefacts once at startup (module level)
 # ----------------------------------------------------------------------
@@ -30,7 +29,7 @@ def load_index_and_metadata():
             "Missing retrieval artefacts at 'data/faiss_index.bin' / 'data/assessments_metadata.pkl'.\n"
             "Run scraper.py then embedder.py to generate them before starting the server."
         )
-    # Memory‑mapped FAISS index – stays on disk, reduces RAM usage
+    # Memory‑mapped FAISS index – stays on disk
     index = faiss.read_index(INDEX_PATH, faiss.IO_FLAG_MMAP)
     with open(METADATA_PATH, "rb") as f:
         metadata = pickle.load(f)
@@ -38,7 +37,7 @@ def load_index_and_metadata():
 
 FAISS_INDEX, ASSESSMENTS = load_index_and_metadata()
 
-# Build BM25 corpus and index using bm25s
+# Build BM25 corpus and index
 BM25_CORPUS = [
     f"{a['name']} {' '.join(a['tags'])} {a['test_type']}"
     for a in ASSESSMENTS
@@ -50,22 +49,24 @@ BM25_INDEX.index(corpus_tokens)
 print("BM25 index ready.")
 
 # ----------------------------------------------------------------------
-# Lazy load embedding model (only when first needed) + FP16 conversion
+# External embedding via Hugging Face Inference API
 # ----------------------------------------------------------------------
-_SEMANTIC_MODEL = None
+HF_API_URL = "https://api-inference.huggingface.co/models/sentence-transformers/all-MiniLM-L6-v2"
+HF_TOKEN = os.environ.get("HF_TOKEN")
 
-def get_semantic_model():
-    global _SEMANTIC_MODEL
-    if _SEMANTIC_MODEL is None:
-        print("Loading embedding model (all-MiniLM-L6-v2) in eval mode...")
-        model = SentenceTransformer("all-MiniLM-L6-v2")
-        model.eval()                     # disable dropout, reduce memory
-        model = model.half()             # convert to FP16 (~40 MB)
-        _SEMANTIC_MODEL = model
-        gc.collect()
-        torch.cuda.empty_cache() if torch.cuda.is_available() else None
-        print("Embedding model ready.")
-    return _SEMANTIC_MODEL
+def get_embedding(text: str) -> np.ndarray:
+    """Call Hugging Face API to get embedding vector."""
+    headers = {"Authorization": f"Bearer {HF_TOKEN}"}
+    payload = {"inputs": text, "options": {"wait_for_model": True}}
+    try:
+        resp = requests.post(HF_API_URL, headers=headers, json=payload, timeout=10)
+        if resp.status_code == 200:
+            embedding = resp.json()[0]  # list of floats
+            return np.array(embedding, dtype=np.float32)
+        else:
+            raise RuntimeError(f"HF API error: {resp.status_code} - {resp.text}")
+    except Exception as e:
+        raise RuntimeError(f"Embedding API call failed: {e}")
 
 # ----------------------------------------------------------------------
 # Reciprocal Rank Fusion (RRF)
@@ -92,15 +93,23 @@ class SHLRetriever:
 
     def _get_cross_encoder(self):
         if self.use_cross_encoder and self._cross_encoder is None:
+            from sentence_transformers import CrossEncoder  # light, no embedding model
             self._cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
         return self._cross_encoder
 
     def _semantic_search(self, query: str) -> List[int]:
-        model = get_semantic_model()
-        # Encode query with FP16 model (automatically converts to float32 for FAISS)
-        query_emb = model.encode([query], normalize_embeddings=True)
-        scores, indices = FAISS_INDEX.search(query_emb.astype(np.float32), self.top_k_semantic)
-        return indices[0].tolist()
+        """Get embedding via external API and search FAISS."""
+        try:
+            emb = get_embedding(query)
+            # FAISS expects float32 and normalised for IP (cosine)
+            emb = emb.reshape(1, -1).astype(np.float32)
+            faiss.normalize_L2(emb)
+            scores, indices = FAISS_INDEX.search(emb, self.top_k_semantic)
+            return indices[0].tolist()
+        except Exception as exc:
+            print(f"Embedding API failed, falling back to BM25 only: {exc}")
+            # Fallback: return BM25 results as semantic results
+            return self._bm25_search(query)
 
     def _bm25_search(self, query: str) -> List[int]:
         query_tokens = bm25s.tokenize([query], stopwords="en")
@@ -214,10 +223,13 @@ class SHLRetriever:
         return "\n".join(lines)
 
 # ----------------------------------------------------------------------
-# Quick test when run directly
+# Quick test (won't run on server because of missing HF_TOKEN)
 # ----------------------------------------------------------------------
 if __name__ == "__main__":
-    print("Testing SHLRetriever (small model, MMAP, FP16)…")
+    print("Testing SHLRetriever with external embedding API...")
+    if not HF_TOKEN:
+        print("Set HF_TOKEN environment variable first.")
+        exit(1)
     retriever = SHLRetriever(use_cross_encoder=False)
     query = "Java developer assessment with personality test"
     print(f"Query: {query}")
@@ -225,5 +237,3 @@ if __name__ == "__main__":
     print(f"Retrieved {len(results)} items:")
     for r in results:
         print(f" - {r['name']} (RRF score: {r['relevance_score']:.4f})")
-    print("\nContext snippet:")
-    print(retriever.context_assembler(results))
