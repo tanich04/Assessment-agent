@@ -7,11 +7,12 @@
     "remote_testing": "Yes",
     "adaptive_irt": "Yes",
     "tags": [
+      "behavioral",
+      "technical",
+      "ability",
       "management",
       "personality",
-      "behavioral",
-      "competency",
-      "ability"
+      "competency"
     ]
   },
   {
@@ -22,8 +23,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "Yes",
     "tags": [
-      "ability",
       "knowledge",
+      "ability",
       "personality"
     ]
   },
@@ -35,10 +36,12 @@
     "remote_testing": "Yes",
     "adaptive_irt": "Yes",
     "tags": [
-      "management",
-      "ability",
       "behavioral",
-      "personality"
+      "technical",
+      "ability",
+      "management",
+      "personality",
+      "situational"
     ]
   },
   {
@@ -73,9 +76,9 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "ability",
-      "knowledge",
       "behavioral",
+      "knowledge",
+      "ability",
       "personality"
     ]
   },
@@ -87,8 +90,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "ability",
       "behavioral",
+      "ability",
       "personality"
     ]
   },
@@ -100,9 +103,11 @@
     "remote_testing": "Yes",
     "adaptive_irt": "Yes",
     "tags": [
-      "ability",
       "behavioral",
-      "personality"
+      "technical",
+      "ability",
+      "personality",
+      "situational"
     ]
   },
   {
@@ -113,8 +118,9 @@
     "remote_testing": "Yes",
     "adaptive_irt": "Yes",
     "tags": [
-      "ability",
+      "situational",
       "behavioral",
+      "ability",
       "personality"
     ]
   },
@@ -126,10 +132,11 @@
     "remote_testing": "Yes",
     "adaptive_irt": "Yes",
     "tags": [
-      "ability",
-      "knowledge",
       "behavioral",
-      "personality"
+      "knowledge",
+      "ability",
+      "personality",
+      "situational"
     ]
   },
   {
@@ -140,9 +147,10 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "management",
-      "ability",
       "behavioral",
+      "technical",
+      "ability",
+      "management",
       "personality"
     ]
   },
@@ -154,8 +162,9 @@
     "remote_testing": "Yes",
     "adaptive_irt": "Yes",
     "tags": [
-      "ability",
+      "technical",
       "behavioral",
+      "ability",
       "personality"
     ]
   },
@@ -167,8 +176,9 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "management",
-      "knowledge"
+      "technical",
+      "knowledge",
+      "management"
     ]
   },
   {
@@ -267,6 +277,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "knowledge"
     ]
   },
@@ -289,6 +300,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "knowledge"
     ]
   },
@@ -300,6 +312,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "knowledge"
     ]
   },
@@ -355,6 +368,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "knowledge"
     ]
   },
@@ -390,7 +404,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "general"
+      "technical"
     ]
   },
   {
@@ -401,7 +415,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "general"
+      "situational"
     ]
   },
   {
@@ -412,7 +426,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "general"
+      "technical",
+      "situational"
     ]
   },
   {
@@ -423,7 +438,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "general"
+      "situational"
     ]
   },
   {
@@ -434,7 +449,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "general"
+      "situational"
     ]
   },
   {
@@ -445,7 +460,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "general"
+      "situational"
     ]
   },
   {
@@ -456,7 +471,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "general"
+      "situational"
     ]
   },
   {
@@ -467,7 +482,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "general"
+      "situational"
     ]
   },
   {
@@ -478,7 +493,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "general"
+      "situational"
     ]
   },
   {
@@ -522,6 +537,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
+      "situational",
       "knowledge"
     ]
   },
@@ -713,6 +730,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "knowledge"
     ]
   },
@@ -724,7 +742,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "general"
+      "technical",
+      "situational"
     ]
   },
   {
@@ -735,7 +754,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "general"
+      "situational"
     ]
   },
   {
@@ -759,7 +778,8 @@
     "adaptive_irt": "No",
     "tags": [
       "technical",
-      "knowledge"
+      "knowledge",
+      "graduate"
     ]
   },
   {
@@ -770,6 +790,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "Yes",
     "tags": [
+      "situational",
       "knowledge"
     ]
   },
@@ -803,8 +824,10 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "behavioral",
-      "customer-service"
+      "customer-service",
+      "situational"
     ]
   },
   {
@@ -815,9 +838,11 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "personality",
       "behavioral",
-      "customer-service"
+      "technical",
+      "personality",
+      "customer-service",
+      "situational"
     ]
   },
   {
@@ -828,6 +853,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "knowledge"
     ]
   },
@@ -839,7 +865,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "general"
+      "situational"
     ]
   },
   {
@@ -973,6 +999,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "knowledge"
     ]
   },
@@ -1083,6 +1110,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "knowledge"
     ]
   },
@@ -1141,7 +1169,9 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "competency",
+      "graduate",
       "personality"
     ]
   },
@@ -1153,7 +1183,9 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "competency",
+      "graduate",
       "personality"
     ]
   },
@@ -1165,9 +1197,11 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "personality",
+      "customer-service",
       "competency",
-      "customer-service"
+      "graduate"
     ]
   },
   {
@@ -1179,6 +1213,7 @@
     "adaptive_irt": "No",
     "tags": [
       "competency",
+      "graduate",
       "personality"
     ]
   },
@@ -1190,8 +1225,9 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "competency",
       "sales",
+      "competency",
+      "graduate",
       "personality"
     ]
   },
@@ -1204,7 +1240,7 @@
     "adaptive_irt": "No",
     "tags": [
       "competency",
-      "technical",
+      "graduate",
       "personality"
     ]
   },
@@ -1227,8 +1263,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "management",
-      "behavioral"
+      "behavioral",
+      "management"
     ]
   },
   {
@@ -1239,8 +1275,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "management",
-      "behavioral"
+      "behavioral",
+      "management"
     ]
   },
   {
@@ -1251,8 +1287,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "management",
-      "behavioral"
+      "behavioral",
+      "management"
     ]
   },
   {
@@ -1462,7 +1498,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "behavioral"
+      "behavioral",
+      "graduate"
     ]
   },
   {
@@ -1473,7 +1510,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "behavioral"
+      "behavioral",
+      "graduate"
     ]
   },
   {
@@ -1484,7 +1522,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "behavioral"
+      "behavioral",
+      "graduate"
     ]
   },
   {
@@ -1607,6 +1646,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "knowledge"
     ]
   },
@@ -1868,6 +1908,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "knowledge"
     ]
   },
@@ -1890,8 +1931,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "management",
-      "behavioral"
+      "behavioral",
+      "management"
     ]
   },
   {
@@ -1902,8 +1943,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "management",
-      "behavioral"
+      "behavioral",
+      "management"
     ]
   },
   {
@@ -1914,8 +1955,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "management",
-      "behavioral"
+      "behavioral",
+      "management"
     ]
   },
   {
@@ -2139,6 +2180,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "situational",
       "knowledge"
     ]
   },
@@ -2150,6 +2192,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "situational",
       "knowledge"
     ]
   },
@@ -2172,6 +2215,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "situational",
       "knowledge"
     ]
   },
@@ -2195,6 +2239,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "Yes",
     "tags": [
+      "technical",
       "knowledge"
     ]
   },
@@ -2206,6 +2251,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "situational",
       "knowledge"
     ]
   },
@@ -2217,6 +2263,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "situational",
       "knowledge"
     ]
   },
@@ -2261,6 +2308,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "knowledge"
     ]
   },
@@ -2360,6 +2408,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "knowledge"
     ]
   },
@@ -2371,7 +2420,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "general"
+      "technical",
+      "situational"
     ]
   },
   {
@@ -2415,9 +2465,10 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "ability",
+      "situational",
       "cognitive",
-      "knowledge"
+      "knowledge",
+      "ability"
     ]
   },
   {
@@ -2528,6 +2579,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "management",
       "personality"
     ]
@@ -2540,6 +2592,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "management",
       "personality"
     ]
@@ -2552,6 +2605,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "personality"
     ]
   },
@@ -2665,6 +2719,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "personality"
     ]
   },
@@ -2676,6 +2731,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "personality"
     ]
   },
@@ -2709,6 +2765,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "management",
       "personality"
     ]
@@ -2721,6 +2778,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
+      "situational",
       "personality"
     ]
   },
@@ -2743,7 +2802,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "knowledge"
+      "knowledge",
+      "graduate"
     ]
   },
   {
@@ -2754,6 +2814,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "knowledge"
     ]
   },
@@ -2765,6 +2826,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "knowledge"
     ]
   },
@@ -2919,8 +2981,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "ability",
       "competency",
+      "ability",
       "personality"
     ]
   },
@@ -2932,8 +2994,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "ability",
       "competency",
+      "ability",
       "personality"
     ]
   },
@@ -2945,6 +3007,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "knowledge"
     ]
   },
@@ -2956,6 +3019,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "knowledge"
     ]
   },
@@ -2967,6 +3031,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "knowledge"
     ]
   },
@@ -3124,8 +3189,9 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "management",
-      "competency"
+      "technical",
+      "competency",
+      "management"
     ]
   },
   {
@@ -3158,10 +3224,11 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "behavioral",
+      "knowledge",
       "ability",
       "sales",
-      "behavioral",
-      "knowledge"
+      "situational"
     ]
   },
   {
@@ -3206,7 +3273,8 @@
     "adaptive_irt": "No",
     "tags": [
       "sales",
-      "behavioral"
+      "behavioral",
+      "situational"
     ]
   },
   {
@@ -3219,6 +3287,7 @@
     "tags": [
       "sales",
       "behavioral",
+      "situational",
       "personality"
     ]
   },
@@ -3242,6 +3311,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
+      "technical",
       "sales",
       "personality"
     ]
@@ -3278,8 +3348,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "management",
       "sales",
+      "management",
       "personality"
     ]
   },
@@ -3291,8 +3361,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
-      "management",
       "sales",
+      "management",
       "personality"
     ]
   },
@@ -3449,6 +3519,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "Yes",
     "tags": [
+      "situational",
+      "cognitive",
       "ability"
     ]
   },
@@ -3460,6 +3532,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "Yes",
     "tags": [
+      "situational",
+      "cognitive",
       "ability"
     ]
   },
@@ -3471,6 +3545,8 @@
     "remote_testing": "Yes",
     "adaptive_irt": "Yes",
     "tags": [
+      "situational",
+      "cognitive",
       "ability"
     ]
   },
@@ -3493,6 +3569,7 @@
     "remote_testing": "Yes",
     "adaptive_irt": "Yes",
     "tags": [
+      "cognitive",
       "ability"
     ]
   },
@@ -3535,733 +3612,6 @@
     "url": "https://www.shl.com/products/product-catalog/view/smart-interview-on-demand/",
     "duration": "N/A",
     "test_type": "P",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "personality"
-    ]
-  },
-  {
-    "name": "Social Media (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/social-media-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Software Business Analysis",
-    "url": "https://www.shl.com/products/product-catalog/view/software-business-analysis/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "Yes",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "SonarQube (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/sonarqube-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Spelling (U.S.) (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/spelling-u-s-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Split Screen Typing Test - Form 1",
-    "url": "https://www.shl.com/products/product-catalog/view/split-screen-typing-test-form-1/",
-    "duration": "N/A",
-    "test_type": "A, K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "ability",
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Spring (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/spring-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "SQL (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/sql-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "SQL Server (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/sql-server-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "SQL Server Analysis Services (SSAS) (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/sql-server-analysis-services-%28ssas%29-%28new%29/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "SQL Server Integration Services (SSIS) (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/sql-server-integration-services-ssis-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "SQL Server Reporting Services (SSRS) (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/sql-server-reporting-services-ssrs-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Statistical Analysis System (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/statistical-analysis-system-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Struts (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/struts-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "SVAR - Spoken English (AUS)",
-    "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-english-aus/",
-    "duration": "N/A",
-    "test_type": "S",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "general"
-    ]
-  },
-  {
-    "name": "SVAR - Spoken English (Indian Accent)  (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-english-indian-accent-new/",
-    "duration": "N/A",
-    "test_type": "S",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "general"
-    ]
-  },
-  {
-    "name": "SVAR - Spoken English (U.K.)",
-    "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-english-u-k/",
-    "duration": "N/A",
-    "test_type": "S",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "general"
-    ]
-  },
-  {
-    "name": "SVAR - Spoken English (US)  (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-english-us-new/",
-    "duration": "N/A",
-    "test_type": "S",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "general"
-    ]
-  },
-  {
-    "name": "SVAR - Spoken French (Canadian) (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-french-canadian-new/",
-    "duration": "N/A",
-    "test_type": "S",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "general"
-    ]
-  },
-  {
-    "name": "SVAR - Spoken French (European) (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-french-european-new/",
-    "duration": "N/A",
-    "test_type": "S",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "general"
-    ]
-  },
-  {
-    "name": "SVAR - Spoken Spanish (Castilian) (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-spanish-castilian-new/",
-    "duration": "N/A",
-    "test_type": "S",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "general"
-    ]
-  },
-  {
-    "name": "SVAR - Spoken Spanish (North American) (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/svar-spoken-spanish-north-american-new/",
-    "duration": "N/A",
-    "test_type": "S",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "general"
-    ]
-  },
-  {
-    "name": "Swing (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/swing-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Tableau (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/tableau-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Telecommunications Engineering (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/telecommunications-engineering-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Teradata Development (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/teradata-development-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Time Management (U.S.)",
-    "url": "https://www.shl.com/products/product-catalog/view/time-management-u-s/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "Yes",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Training Development",
-    "url": "https://www.shl.com/products/product-catalog/view/training-development/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "Yes",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Typing (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/typing-new/",
-    "duration": "N/A",
-    "test_type": "S",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "general"
-    ]
-  },
-  {
-    "name": "UiPath RPA Development (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/uipath-rpa-development-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Universal Competency Framework Interview Guide",
-    "url": "https://www.shl.com/products/product-catalog/view/universal-competency-framework-interview-guide/",
-    "duration": "N/A",
-    "test_type": "C, P",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "competency",
-      "personality"
-    ]
-  },
-  {
-    "name": "Universal Competency Framework Job profiling guide",
-    "url": "https://www.shl.com/products/product-catalog/view/universal-competency-framework-job-profiling-guide/",
-    "duration": "N/A",
-    "test_type": "C, P",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "competency",
-      "personality"
-    ]
-  },
-  {
-    "name": "Universal Competency Framework Profiler Cards (44)",
-    "url": "https://www.shl.com/products/product-catalog/view/universal-competency-framework-profiler-cards-44/",
-    "duration": "N/A",
-    "test_type": "C, P",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "competency",
-      "personality"
-    ]
-  },
-  {
-    "name": "UNIX (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/unix-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "VB.NET (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/vb-net-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "technical",
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Verify - Deductive Reasoning",
-    "url": "https://www.shl.com/products/product-catalog/view/verify-deductive-reasoning/",
-    "duration": "N/A",
-    "test_type": "A",
-    "remote_testing": "Yes",
-    "adaptive_irt": "Yes",
-    "tags": [
-      "ability"
-    ]
-  },
-  {
-    "name": "Verify - Following Instructions",
-    "url": "https://www.shl.com/products/product-catalog/view/verify-following-instructions/",
-    "duration": "N/A",
-    "test_type": "A",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "ability"
-    ]
-  },
-  {
-    "name": "Verify - G+",
-    "url": "https://www.shl.com/products/product-catalog/view/verify-g/",
-    "duration": "N/A",
-    "test_type": "A",
-    "remote_testing": "Yes",
-    "adaptive_irt": "Yes",
-    "tags": [
-      "ability"
-    ]
-  },
-  {
-    "name": "Verify - General Ability Screen",
-    "url": "https://www.shl.com/products/product-catalog/view/verify-general-ability-screen/",
-    "duration": "N/A",
-    "test_type": "A",
-    "remote_testing": "Yes",
-    "adaptive_irt": "Yes",
-    "tags": [
-      "ability",
-      "cognitive"
-    ]
-  },
-  {
-    "name": "Verify - Inductive Reasoning (2014)",
-    "url": "https://www.shl.com/products/product-catalog/view/verify-inductive-reasoning-2014/",
-    "duration": "N/A",
-    "test_type": "A",
-    "remote_testing": "Yes",
-    "adaptive_irt": "Yes",
-    "tags": [
-      "ability"
-    ]
-  },
-  {
-    "name": "Verify - Numerical Ability",
-    "url": "https://www.shl.com/products/product-catalog/view/verify-numerical-ability/",
-    "duration": "N/A",
-    "test_type": "A",
-    "remote_testing": "Yes",
-    "adaptive_irt": "Yes",
-    "tags": [
-      "ability",
-      "cognitive"
-    ]
-  },
-  {
-    "name": "Verify - Technical Checking - Next Generation",
-    "url": "https://www.shl.com/products/product-catalog/view/verify-technical-checking-next-generation/",
-    "duration": "N/A",
-    "test_type": "A",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "ability",
-      "technical"
-    ]
-  },
-  {
-    "name": "Verify - Verbal Ability - Next Generation",
-    "url": "https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/",
-    "duration": "N/A",
-    "test_type": "A",
-    "remote_testing": "Yes",
-    "adaptive_irt": "Yes",
-    "tags": [
-      "ability",
-      "cognitive"
-    ]
-  },
-  {
-    "name": "Verify - Working with Information",
-    "url": "https://www.shl.com/products/product-catalog/view/verify-working-with-information/",
-    "duration": "N/A",
-    "test_type": "A",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "ability"
-    ]
-  },
-  {
-    "name": "Verify G+ - Ability Test Report",
-    "url": "https://www.shl.com/products/product-catalog/view/verify-g-ability-test-report/",
-    "duration": "N/A",
-    "test_type": "A",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "ability",
-      "cognitive"
-    ]
-  },
-  {
-    "name": "Verify G+ - Candidate Report",
-    "url": "https://www.shl.com/products/product-catalog/view/verify-g-candidate-report/",
-    "duration": "N/A",
-    "test_type": "A",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "ability"
-    ]
-  },
-  {
-    "name": "Verify Interactive Ability Report",
-    "url": "https://www.shl.com/products/product-catalog/view/verify-interactive-ability-report/",
-    "duration": "N/A",
-    "test_type": "A",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "ability",
-      "cognitive"
-    ]
-  },
-  {
-    "name": "Verify Interactive G+ Candidate Report",
-    "url": "https://www.shl.com/products/product-catalog/view/verify-interactive-g-candidate-report/",
-    "duration": "N/A",
-    "test_type": "A",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "ability"
-    ]
-  },
-  {
-    "name": "Verify Interactive G+ Report",
-    "url": "https://www.shl.com/products/product-catalog/view/verify-interactive-g-report/",
-    "duration": "N/A",
-    "test_type": "A",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "ability"
-    ]
-  },
-  {
-    "name": "Verify Interactive Process Monitoring",
-    "url": "https://www.shl.com/products/product-catalog/view/verify-interactive-process-monitoring/",
-    "duration": "N/A",
-    "test_type": "A",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "ability"
-    ]
-  },
-  {
-    "name": "Virtual Assessment and Development Centers",
-    "url": "https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/",
-    "duration": "N/A",
-    "test_type": "P",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "personality"
-    ]
-  },
-  {
-    "name": "Visual Basic for Applications (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/visual-basic-for-applications-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Visual Comparison - UK",
-    "url": "https://www.shl.com/products/product-catalog/view/visual-comparison-uk/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Visual Comparison - US",
-    "url": "https://www.shl.com/products/product-catalog/view/visual-comparison-us/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "VLSI and Embedded Systems (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/vlsi-and-embedded-systems-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "What Is The Value - US",
-    "url": "https://www.shl.com/products/product-catalog/view/what-is-the-value-us/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "Yes",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Workplace Administration Skills (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/workplace-administration-skills-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Workplace Health and Safety (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/workplace-health-and-safety-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "WriteX - Email Writing (Customer Service) (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-customer-service-new/",
-    "duration": "N/A",
-    "test_type": "S",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "customer-service"
-    ]
-  },
-  {
-    "name": "WriteX - Email Writing (Managerial) (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/",
-    "duration": "N/A",
-    "test_type": "S",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "management"
-    ]
-  },
-  {
-    "name": "WriteX - Email Writing (Sales) (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/",
-    "duration": "N/A",
-    "test_type": "B, S",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "sales",
-      "behavioral"
-    ]
-  },
-  {
-    "name": "Written English v1",
-    "url": "https://www.shl.com/products/product-catalog/view/written-english-v1/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "Yes",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Written Spanish",
-    "url": "https://www.shl.com/products/product-catalog/view/written-spanish/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "Yes",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "Zabbix (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/zabbix-new/",
-    "duration": "N/A",
-    "test_type": "K",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "knowledge"
-    ]
-  },
-  {
-    "name": "360 Digital Report",
-    "url": "https://www.shl.com/products/product-catalog/view/360-digital-report/",
-    "duration": "N/A",
-    "test_type": "D",
-    "remote_testing": "Yes",
-    "adaptive_irt": "No",
-    "tags": [
-      "general"
-    ]
-  },
-  {
-    "name": "360° Multi-Rater Feedback System (MFS)",
-    "url": "https://www.shl.com/products/product-catalog/view/360-multi-rater-feedback-system-mfs/",
-    "duration": "N/A",
-    "test_type": "D, P",
     "remote_testing": "Yes",
     "adaptive_irt": "No",
     "tags": [
