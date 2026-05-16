@@ -62,7 +62,7 @@ app = FastAPI(
 )
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://yourdomain.com"],  # adjust for production
+    allow_origins=["http://localhost:5173", "https://assessment-shl.netlify.app/"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
