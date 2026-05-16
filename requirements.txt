@@ -1,0 +1,13 @@
+requests
+beautifulsoup4
+pandas
+pydantic
+sentence-transformers
+faiss-cpu
+numpy
+bm25s
+uvicorn
+fastapi
+groq
+google-generativeai
+python-dotenv

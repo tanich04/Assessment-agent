@@ -1,0 +1,378 @@
+name,url,duration,test_type,remote_testing,adaptive_irt,tags
+Account Manager Solution,https://www.shl.com/products/product-catalog/view/account-manager-solution/,N/A,"C, P, A, B",Yes,Yes,"['management', 'personality', 'behavioral', 'competency', 'ability']"
+Administrative Professional - Short Form,https://www.shl.com/products/product-catalog/view/administrative-professional-short-form/,N/A,"A, K, P",Yes,Yes,"['ability', 'knowledge', 'personality']"
+Agency Manager Solution,https://www.shl.com/products/product-catalog/view/agency-manager-solution/,N/A,"A, B, P, S",Yes,Yes,"['management', 'ability', 'behavioral', 'personality']"
+Apprentice + 8.0 Job Focused Assessment,https://www.shl.com/products/product-catalog/view/apprentice-8-0-job-focused-assessment-4261/,N/A,"B, P",Yes,No,"['behavioral', 'personality']"
+Apprentice 8.0 Job Focused Assessment,https://www.shl.com/products/product-catalog/view/apprentice-8-0-job-focused-assessment/,N/A,"B, P",Yes,No,"['behavioral', 'personality']"
+Bank Administrative Assistant - Short Form,https://www.shl.com/products/product-catalog/view/bank-administrative-assistant-short-form/,N/A,"A, B, K, P",Yes,No,"['ability', 'knowledge', 'behavioral', 'personality']"
+Bank Collections Agent - Short Form,https://www.shl.com/products/product-catalog/view/bank-collections-agent-short-form/,N/A,"A, B, P",Yes,No,"['ability', 'behavioral', 'personality']"
+Bank Operations Supervisor - Short Form,https://www.shl.com/products/product-catalog/view/bank-operations-supervisor-short-form/,N/A,"A, B, P, S",Yes,Yes,"['ability', 'behavioral', 'personality']"
+Bilingual Spanish Reservation Agent Solution,https://www.shl.com/products/product-catalog/view/bilingual-spanish-reservation-agent-solution/,N/A,"B, P, S, A",Yes,Yes,"['ability', 'behavioral', 'personality']"
+"Bookkeeping, Accounting, Auditing Clerk Short Form",https://www.shl.com/products/product-catalog/view/bookkeeping-accounting-auditing-clerk-short-form/,N/A,"P, S, K, B, A",Yes,Yes,"['ability', 'knowledge', 'behavioral', 'personality']"
+Branch Manager - Short Form,https://www.shl.com/products/product-catalog/view/branch-manager-short-form/,N/A,"A, B, P",Yes,No,"['management', 'ability', 'behavioral', 'personality']"
+Cashier Solution,https://www.shl.com/products/product-catalog/view/cashier-solution/,N/A,"B, A, P",Yes,Yes,"['ability', 'behavioral', 'personality']"
+Adobe Experience Manager (New),https://www.shl.com/products/product-catalog/view/adobe-experience-manager-new/,N/A,K,Yes,No,"['management', 'knowledge']"
+Adobe Photoshop CC,https://www.shl.com/products/product-catalog/view/adobe-photoshop-cc/,N/A,K,Yes,Yes,['knowledge']
+Aeronautical Engineering (New),https://www.shl.com/products/product-catalog/view/aeronautical-engineering-new/,N/A,K,Yes,No,['knowledge']
+Aerospace Engineering (New),https://www.shl.com/products/product-catalog/view/aerospace-engineering-new/,N/A,K,Yes,No,['knowledge']
+Agile Software Development,https://www.shl.com/products/product-catalog/view/agile-software-development/,N/A,K,Yes,No,['knowledge']
+Agile Testing (New),https://www.shl.com/products/product-catalog/view/agile-testing-new/,N/A,K,Yes,No,['knowledge']
+AI Skills,https://www.shl.com/products/product-catalog/view/ai-skills/,N/A,P,Yes,No,['personality']
+Amazon Web Services (AWS) Development (New),https://www.shl.com/products/product-catalog/view/amazon-web-services-aws-development-new/,N/A,K,Yes,No,['knowledge']
+Android Development (New),https://www.shl.com/products/product-catalog/view/android-development-new/,N/A,K,Yes,No,['knowledge']
+Angular 6 (New),https://www.shl.com/products/product-catalog/view/angular-6-new/,N/A,K,Yes,No,['knowledge']
+AngularJS (New),https://www.shl.com/products/product-catalog/view/angularjs-new/,N/A,K,Yes,No,['knowledge']
+Apache Hadoop (New),https://www.shl.com/products/product-catalog/view/apache-hadoop-new/,N/A,K,Yes,No,['knowledge']
+Apache Hadoop Extensions (New),https://www.shl.com/products/product-catalog/view/apache-hadoop-extensions-new/,N/A,K,Yes,No,['knowledge']
+Apache HBase (New),https://www.shl.com/products/product-catalog/view/apache-hbase-new/,N/A,K,Yes,No,['knowledge']
+Apache Hive (New),https://www.shl.com/products/product-catalog/view/apache-hive-new/,N/A,K,Yes,No,['knowledge']
+Apache Kafka (New),https://www.shl.com/products/product-catalog/view/apache-kafka-new/,N/A,K,Yes,No,['knowledge']
+Apache Pig (New),https://www.shl.com/products/product-catalog/view/apache-pig-new/,N/A,K,Yes,No,['knowledge']
+Apache Spark (New),https://www.shl.com/products/product-catalog/view/apache-spark-new/,N/A,K,Yes,No,['knowledge']
+ASP .NET with C# (New),https://www.shl.com/products/product-catalog/view/asp-net-with-c-new/,N/A,K,Yes,No,"['technical', 'knowledge']"
+ASP.NET 4.5,https://www.shl.com/products/product-catalog/view/asp-net-4-5/,N/A,K,Yes,Yes,"['technical', 'knowledge']"
+Assessment and Development Center Exercises,https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/,N/A,E,Yes,No,['general']
+Automata - Fix (New),https://www.shl.com/products/product-catalog/view/automata-fix-new/,N/A,S,Yes,No,['general']
+Automata - SQL (New),https://www.shl.com/products/product-catalog/view/automata-sql-new/,N/A,S,Yes,No,['general']
+Automata (New),https://www.shl.com/products/product-catalog/view/automata-new/,N/A,S,Yes,No,['general']
+Automata Data Science (New),https://www.shl.com/products/product-catalog/view/automata-data-science-new/,N/A,S,Yes,No,['general']
+Automata Data Science Pro (New),https://www.shl.com/products/product-catalog/view/automata-data-science-pro-new/,N/A,S,Yes,No,['general']
+Automata Front End,https://www.shl.com/products/product-catalog/view/automata-front-end/,N/A,S,Yes,No,['general']
+Automata Pro (New),https://www.shl.com/products/product-catalog/view/automata-pro-new/,N/A,S,Yes,No,['general']
+Automata Selenium,https://www.shl.com/products/product-catalog/view/automata-selenium/,N/A,S,Yes,No,['general']
+Automation Anywhere RPA Development (New),https://www.shl.com/products/product-catalog/view/automation-anywhere-rpa-development-new/,N/A,K,Yes,No,['knowledge']
+Automotive Engineering (New),https://www.shl.com/products/product-catalog/view/automotive-engineering-new/,N/A,K,Yes,No,['knowledge']
+Basic Biology (New),https://www.shl.com/products/product-catalog/view/basic-biology-new/,N/A,K,Yes,No,['knowledge']
+Basic Computer Literacy (Windows 10) (New),https://www.shl.com/products/product-catalog/view/basic-computer-literacy-windows-10-new/,N/A,"S, K",Yes,No,['knowledge']
+Basic Statistics (New),https://www.shl.com/products/product-catalog/view/basic-statistics-new/,N/A,K,Yes,No,['knowledge']
+Biochemistry (New),https://www.shl.com/products/product-catalog/view/biochemistry-new/,N/A,K,Yes,No,['knowledge']
+Biotech Lab Techniques (New),https://www.shl.com/products/product-catalog/view/biotech-lab-techniques-new/,N/A,K,Yes,No,['knowledge']
+BizTalk (New),https://www.shl.com/products/product-catalog/view/biztalk-new/,N/A,K,Yes,No,['knowledge']
+Business Communication (adaptive),https://www.shl.com/products/product-catalog/view/business-communication-adaptive/,N/A,K,Yes,Yes,['knowledge']
+Business Communications,https://www.shl.com/products/product-catalog/view/business-communications/,N/A,K,Yes,No,['knowledge']
+C Programming (New),https://www.shl.com/products/product-catalog/view/c-programming-new/,N/A,K,Yes,No,"['technical', 'knowledge']"
+C# Programming (New),https://www.shl.com/products/product-catalog/view/c-programming-new-4039/,N/A,K,Yes,No,"['technical', 'knowledge']"
+C++ Programming (New),https://www.shl.com/products/product-catalog/view/c-programming-new-4122/,N/A,K,Yes,No,"['technical', 'knowledge']"
+Cardiology and Diabetes Management (New),https://www.shl.com/products/product-catalog/view/cardiology-and-diabetes-management-new/,N/A,K,Yes,No,['knowledge']
+Ceramic Engineering (New),https://www.shl.com/products/product-catalog/view/ceramic-engineering-new/,N/A,K,Yes,No,['knowledge']
+Chemical Engineering (New),https://www.shl.com/products/product-catalog/view/chemical-engineering-new/,N/A,K,Yes,No,['knowledge']
+Cisco AppDynamics (New),https://www.shl.com/products/product-catalog/view/cisco-appdynamics-new/,N/A,K,Yes,No,['knowledge']
+Civil Engineering (New),https://www.shl.com/products/product-catalog/view/civil-engineering-new/,N/A,K,Yes,No,['knowledge']
+Cloud Computing (New),https://www.shl.com/products/product-catalog/view/cloud-computing-new/,N/A,K,Yes,No,['knowledge']
+COBOL Programming (New),https://www.shl.com/products/product-catalog/view/cobol-programming-new/,N/A,K,Yes,No,"['technical', 'knowledge']"
+Computer Science (New),https://www.shl.com/products/product-catalog/view/computer-science-new/,N/A,K,Yes,No,['knowledge']
+Contact Center Call Simulation (New),https://www.shl.com/products/product-catalog/view/contact-center-call-simulation-new/,N/A,S,Yes,No,['general']
+Conversational Multichat Simulation,https://www.shl.com/products/product-catalog/view/conversational-multichat-simulation/,N/A,S,Yes,No,['general']
+Core Java (Advanced Level) (New),https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/,N/A,K,Yes,No,"['technical', 'knowledge']"
+Core Java (Entry Level) (New),https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/,N/A,K,Yes,No,"['technical', 'knowledge']"
+Count Out The Money,https://www.shl.com/products/product-catalog/view/count-out-the-money/,N/A,"K, S",Yes,Yes,['knowledge']
+CSS3 (New),https://www.shl.com/products/product-catalog/view/css3-new/,N/A,K,Yes,No,['knowledge']
+Culinary Skills (New),https://www.shl.com/products/product-catalog/view/culinary-skills-new/,N/A,K,Yes,No,['knowledge']
+Customer Service Phone Simulation,https://www.shl.com/products/product-catalog/view/customer-service-phone-simulation/,N/A,"B, S",Yes,No,"['behavioral', 'customer-service']"
+Customer Service Phone Solution,https://www.shl.com/products/product-catalog/view/customer-service-phone-solution/,N/A,"B, P, S",Yes,No,"['personality', 'behavioral', 'customer-service']"
+Cyber Risk (New),https://www.shl.com/products/product-catalog/view/cyber-risk-new/,N/A,K,Yes,No,['knowledge']
+Data Entry (New),https://www.shl.com/products/product-catalog/view/data-entry-new/,N/A,S,Yes,No,['general']
+Data Entry Alphanumeric Split Screen - US,https://www.shl.com/products/product-catalog/view/data-entry-alphanumeric-split-screen-us/,N/A,K,Yes,No,['knowledge']
+Data Entry Numeric Split Screen - US,https://www.shl.com/products/product-catalog/view/data-entry-numeric-split-screen-us/,N/A,K,Yes,No,['knowledge']
+Data Entry Ten Key Split Screen,https://www.shl.com/products/product-catalog/view/data-entry-ten-key-split-screen/,N/A,K,Yes,No,['knowledge']
+Data Science (New),https://www.shl.com/products/product-catalog/view/data-science-new/,N/A,K,Yes,No,['knowledge']
+Data Warehousing Concepts,https://www.shl.com/products/product-catalog/view/data-warehousing-concepts/,N/A,K,Yes,Yes,['knowledge']
+Dependability and Safety Instrument (DSI),https://www.shl.com/products/product-catalog/view/dependability-and-safety-instrument-dsi/,N/A,P,Yes,No,"['cognitive', 'personality']"
+Dermatology (New),https://www.shl.com/products/product-catalog/view/dermatology-new/,N/A,K,Yes,No,['knowledge']
+Desktop Support (New),https://www.shl.com/products/product-catalog/view/desktop-support-new/,N/A,K,Yes,No,['knowledge']
+Digital Advertising (New),https://www.shl.com/products/product-catalog/view/digital-advertising-new/,N/A,K,Yes,No,['knowledge']
+Digital Readiness Development Report - IC,https://www.shl.com/products/product-catalog/view/digital-readiness-development-report/,N/A,P,Yes,No,['personality']
+Digital Readiness Development Report - Manager,https://www.shl.com/products/product-catalog/view/digital-readiness-development-report-manager/,N/A,P,Yes,No,"['management', 'personality']"
+Docker (New),https://www.shl.com/products/product-catalog/view/docker-new/,N/A,K,Yes,No,['knowledge']
+Dojo (New),https://www.shl.com/products/product-catalog/view/dojo-new/,N/A,K,Yes,No,['knowledge']
+Drupal (New),https://www.shl.com/products/product-catalog/view/drupal-new/,N/A,K,Yes,No,['knowledge']
+DSI v1.1 Interpretation Report,https://www.shl.com/products/product-catalog/view/dsi-v1-1-interpretation-report/,N/A,P,Yes,No,['personality']
+Econometrics (New),https://www.shl.com/products/product-catalog/view/econometrics-new/,N/A,K,Yes,No,['knowledge']
+Economics (New),https://www.shl.com/products/product-catalog/view/economics-new/,N/A,K,Yes,No,['knowledge']
+Electrical and Electronics Engineering (New),https://www.shl.com/products/product-catalog/view/electrical-and-electronics-engineering-new/,N/A,K,Yes,No,['knowledge']
+Electrical Engineering (New),https://www.shl.com/products/product-catalog/view/electrical-engineering-new/,N/A,K,Yes,No,['knowledge']
+Electronics & Telecommunications Engineering (New),https://www.shl.com/products/product-catalog/view/electronics-and-telecommunications-engineering-new/,N/A,K,Yes,No,['knowledge']
+Electronics and Embedded Systems Engineering (New),https://www.shl.com/products/product-catalog/view/electronics-and-embedded-systems-engineering-new/,N/A,K,Yes,No,['knowledge']
+Electronics and Semiconductor Engineering (New),https://www.shl.com/products/product-catalog/view/electronics-and-semiconductor-engineering-new/,N/A,K,Yes,No,['knowledge']
+English Comprehension (New),https://www.shl.com/products/product-catalog/view/english-comprehension-new/,N/A,K,Yes,No,['knowledge']
+Enterprise Java Beans (New),https://www.shl.com/products/product-catalog/view/enterprise-java-beans-new/,N/A,K,Yes,No,"['technical', 'knowledge']"
+Enterprise Leadership Report 1.0,https://www.shl.com/products/product-catalog/view/enterprise-leadership-report/,N/A,P,Yes,No,"['management', 'personality']"
+Enterprise Leadership Report 2.0,https://www.shl.com/products/product-catalog/view/enterprise-leadership-report-2-0/,N/A,P,Yes,No,"['management', 'personality']"
+Entry Level Cashier Solution,https://www.shl.com/products/product-catalog/view/entry-level-cashier-solution/,N/A,"C, P",Yes,No,"['competency', 'personality']"
+Entry Level Customer Serv-Retail & Contact Center,https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/,N/A,"P, C",Yes,No,"['competency', 'personality']"
+Entry Level Customer Service (General) Solution,https://www.shl.com/products/product-catalog/view/entry-level-customer-service-general-solution/,N/A,"C, P",Yes,No,"['personality', 'competency', 'customer-service']"
+Entry Level Hotel Front Desk Solution,https://www.shl.com/products/product-catalog/view/entry-level-hotel-front-desk-solution/,N/A,"C, P",Yes,No,"['competency', 'personality']"
+Entry Level Sales Solution,https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/,N/A,"C, P",Yes,No,"['competency', 'sales', 'personality']"
+Entry Level Technical Support Solution,https://www.shl.com/products/product-catalog/view/entry-level-technical-support-solution/,N/A,"P, C",Yes,No,"['competency', 'technical', 'personality']"
+ETL Testing (New),https://www.shl.com/products/product-catalog/view/etl-testing-new/,N/A,K,Yes,No,['knowledge']
+Executive Scenarios,https://www.shl.com/products/product-catalog/view/executive-scenarios/,N/A,B,Yes,No,"['management', 'behavioral']"
+Executive Scenarios Narrative Report,https://www.shl.com/products/product-catalog/view/executive-scenarios-narrative-report/,N/A,B,Yes,No,"['management', 'behavioral']"
+Executive Scenarios Profile Report,https://www.shl.com/products/product-catalog/view/executive-scenarios-profile-report/,N/A,B,Yes,No,"['management', 'behavioral']"
+ExpressJS (New),https://www.shl.com/products/product-catalog/view/expressjs-new/,N/A,K,Yes,No,['knowledge']
+Filing - Names (R1),https://www.shl.com/products/product-catalog/view/filing-names-r1/,N/A,K,Yes,No,['knowledge']
+Filing - Numbers,https://www.shl.com/products/product-catalog/view/filing-numbers/,N/A,K,Yes,No,['knowledge']
+Financial Accounting (New),https://www.shl.com/products/product-catalog/view/financial-accounting-new/,N/A,K,Yes,No,['knowledge']
+Financial and Banking Services (New),https://www.shl.com/products/product-catalog/view/financial-and-banking-services-new/,N/A,K,Yes,No,['knowledge']
+Fire Engineering (New),https://www.shl.com/products/product-catalog/view/fire-engineering-new/,N/A,K,Yes,No,['knowledge']
+Following Instructions v1 - UK (R1),https://www.shl.com/products/product-catalog/view/following-instructions-v1-uk-r1/,N/A,K,Yes,No,['knowledge']
+Following Instructions v1 - US (R2),https://www.shl.com/products/product-catalog/view/following-instructions-v1-us-r2/,N/A,K,Yes,No,['knowledge']
+Food and Beverage Services (New),https://www.shl.com/products/product-catalog/view/food-and-beverage-services-new/,N/A,K,Yes,No,['knowledge']
+Food Science (New),https://www.shl.com/products/product-catalog/view/food-science-new/,N/A,K,Yes,No,['knowledge']
+Front Office Management (New),https://www.shl.com/products/product-catalog/view/front-office-management-new/,N/A,K,Yes,No,['knowledge']
+Fundamentals of Chemistry (New),https://www.shl.com/products/product-catalog/view/fundamentals-of-chemistry-new/,N/A,K,Yes,No,['knowledge']
+Fundamentals of Physics (New),https://www.shl.com/products/product-catalog/view/fundamentals-of-physics-new/,N/A,K,Yes,No,['knowledge']
+General Diseases (New),https://www.shl.com/products/product-catalog/view/general-diseases-new/,N/A,K,Yes,No,['knowledge']
+Geoinformatics Engineering (New),https://www.shl.com/products/product-catalog/view/geoinformatics-engineering-new/,N/A,K,Yes,No,['knowledge']
+Geoscience Engineering (New),https://www.shl.com/products/product-catalog/view/geoscience-engineering-new/,N/A,K,Yes,No,['knowledge']
+GIT (New),https://www.shl.com/products/product-catalog/view/git-new/,N/A,K,Yes,No,['knowledge']
+Global Skills Assessment,https://www.shl.com/products/product-catalog/view/global-skills-assessment/,N/A,"C, K",Yes,No,"['competency', 'knowledge']"
+Graduate Scenarios,https://www.shl.com/products/product-catalog/view/graduate-scenarios/,N/A,B,Yes,No,['behavioral']
+Graduate Scenarios Narrative Report,https://www.shl.com/products/product-catalog/view/graduate-scenarios-narrative-report/,N/A,B,Yes,No,['behavioral']
+Graduate Scenarios Profile Report,https://www.shl.com/products/product-catalog/view/graduate-scenarios-profile-report/,N/A,B,Yes,No,['behavioral']
+Hibernate (New),https://www.shl.com/products/product-catalog/view/hibernate-new/,N/A,K,Yes,No,['knowledge']
+HIPAA (Security),https://www.shl.com/products/product-catalog/view/hipaa-security/,N/A,K,Yes,Yes,['knowledge']
+HiPo Assessment Report 1.0,https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/,N/A,"C, P",Yes,No,"['competency', 'personality']"
+HiPo Assessment Report 2.0,https://www.shl.com/products/product-catalog/view/hipo-assessment-report-2-0/,N/A,"C, P",Yes,No,"['competency', 'personality']"
+HiPo Unlocking Potential Report 2.0,https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/,N/A,C,Yes,No,['competency']
+Housekeeping (New),https://www.shl.com/products/product-catalog/view/housekeeping-new/,N/A,K,Yes,No,['knowledge']
+HTML/CSS (New),https://www.shl.com/products/product-catalog/view/htmlcss-new/,N/A,K,Yes,No,['knowledge']
+HTML5 (New),https://www.shl.com/products/product-catalog/view/html5-new/,N/A,K,Yes,No,['knowledge']
+Human Resources (New),https://www.shl.com/products/product-catalog/view/human-resources-new/,N/A,K,Yes,No,['knowledge']
+IBM DataStage (New),https://www.shl.com/products/product-catalog/view/ibm-datastage-new/,N/A,K,Yes,No,['knowledge']
+IBM Sterling Order Management System (New),https://www.shl.com/products/product-catalog/view/ibm-sterling-order-management-system-new/,N/A,K,Yes,No,['knowledge']
+Industrial Engineering (New),https://www.shl.com/products/product-catalog/view/industrial-engineering-new/,N/A,K,Yes,No,['knowledge']
+Informatica (Architecture) (New),https://www.shl.com/products/product-catalog/view/informatica-architecture-new/,N/A,K,Yes,No,['knowledge']
+Informatica (Developer) (New),https://www.shl.com/products/product-catalog/view/informatica-developer-new/,N/A,K,Yes,No,['knowledge']
+Instrumentation Engineering (New),https://www.shl.com/products/product-catalog/view/instrumentation-engineering-new/,N/A,K,Yes,No,['knowledge']
+Interpersonal Communications,https://www.shl.com/products/product-catalog/view/interpersonal-communications/,N/A,K,Yes,Yes,['knowledge']
+Interviewing and Hiring Concepts (U.S.),https://www.shl.com/products/product-catalog/view/interviewing-and-hiring-concepts-u-s/,N/A,K,Yes,Yes,['knowledge']
+iOS Development (New),https://www.shl.com/products/product-catalog/view/ios-development-new/,N/A,K,Yes,No,['knowledge']
+ITIL (IT Infrastructure Library) (New),https://www.shl.com/products/product-catalog/view/itil-it-infrastructure-library-new/,N/A,K,Yes,No,['knowledge']
+Java 2 Platform Enterprise Edition 1.4 Fundamental,https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/,N/A,K,Yes,Yes,"['technical', 'knowledge']"
+Java 8 (New),https://www.shl.com/products/product-catalog/view/java-8-new/,N/A,K,Yes,No,"['technical', 'knowledge']"
+Java Design Patterns (New),https://www.shl.com/products/product-catalog/view/java-design-patterns-new/,N/A,K,Yes,No,"['technical', 'knowledge']"
+Java Frameworks (New),https://www.shl.com/products/product-catalog/view/java-frameworks-new/,N/A,K,Yes,No,"['technical', 'knowledge']"
+Java Platform Enterprise Edition 7 (Java EE 7),https://www.shl.com/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/,N/A,K,Yes,Yes,"['technical', 'knowledge']"
+Java Web Services (New),https://www.shl.com/products/product-catalog/view/java-web-services-new/,N/A,K,Yes,No,"['technical', 'knowledge']"
+JavaScript (New),https://www.shl.com/products/product-catalog/view/javascript-new/,N/A,K,Yes,No,"['technical', 'knowledge']"
+Jenkins (New),https://www.shl.com/products/product-catalog/view/jenkins-new/,N/A,K,Yes,No,['knowledge']
+Job Control Language (New),https://www.shl.com/products/product-catalog/view/job-control-language-new/,N/A,K,Yes,No,['knowledge']
+jQuery (New),https://www.shl.com/products/product-catalog/view/jquery-new/,N/A,K,Yes,No,['knowledge']
+Kubernetes (New),https://www.shl.com/products/product-catalog/view/kubernetes-new/,N/A,K,Yes,No,['knowledge']
+Linux Administration (New),https://www.shl.com/products/product-catalog/view/linux-administration-new/,N/A,K,Yes,No,['knowledge']
+Linux Operating System,https://www.shl.com/products/product-catalog/view/linux-operating-system/,N/A,K,Yes,No,['knowledge']
+Linux Programming (General),https://www.shl.com/products/product-catalog/view/linux-programming-general/,N/A,K,Yes,Yes,"['technical', 'knowledge']"
+Load Runner (New),https://www.shl.com/products/product-catalog/view/load-runner-new/,N/A,K,Yes,No,['knowledge']
+Management Scenarios,https://www.shl.com/products/product-catalog/view/management-scenarios/,N/A,B,Yes,No,['behavioral']
+Managerial Scenarios Candidate Report,https://www.shl.com/products/product-catalog/view/managerial-scenarios-candidate-report/,N/A,B,Yes,No,"['management', 'behavioral']"
+Managerial Scenarios Narrative Report,https://www.shl.com/products/product-catalog/view/managerial-scenarios-narrative-report/,N/A,B,Yes,No,"['management', 'behavioral']"
+Managerial Scenarios Profile Report,https://www.shl.com/products/product-catalog/view/managerial-scenarios-profile-report/,N/A,B,Yes,No,"['management', 'behavioral']"
+Manual Testing (New),https://www.shl.com/products/product-catalog/view/manual-testing-new/,N/A,K,Yes,No,['knowledge']
+Manufac. & Indust. - Mechanical & Vigilance 8.0,https://www.shl.com/products/product-catalog/view/mechanical-and-vigilance-focus-8-0/,N/A,"A, P",Yes,No,"['ability', 'personality']"
+Manufac. & Indust. - Safety & Dependability 8.0,https://www.shl.com/products/product-catalog/view/safety-and-dependability-focus-8-0/,N/A,P,Yes,No,"['cognitive', 'personality']"
+Manufacturing & Industrial - Essential Focus 8.0,https://www.shl.com/products/product-catalog/view/essential-focus-8-0/,N/A,P,Yes,No,['personality']
+Manufacturing & Industrial - Mechanical Focus 8.0,https://www.shl.com/products/product-catalog/view/mechanical-focus-8-0/,N/A,"A, P",Yes,No,"['ability', 'personality']"
+Manufacturing & Industrial - Vigilance Focus 8.0,https://www.shl.com/products/product-catalog/view/vigilance-focus-8-0/,N/A,"A, P",Yes,No,"['ability', 'personality']"
+Marketing (New),https://www.shl.com/products/product-catalog/view/marketing-new/,N/A,K,Yes,No,['knowledge']
+Maven (New),https://www.shl.com/products/product-catalog/view/maven-new/,N/A,K,Yes,No,['knowledge']
+Mechanical Engineering (New),https://www.shl.com/products/product-catalog/view/mechanical-engineering-new/,N/A,K,Yes,No,['knowledge']
+Mechatronics Engineering (New),https://www.shl.com/products/product-catalog/view/mechatronics-engineering-new/,N/A,K,Yes,No,['knowledge']
+Medical Terminology (New),https://www.shl.com/products/product-catalog/view/medical-terminology-new/,N/A,K,Yes,No,['knowledge']
+Metallurgical Engineering (New),https://www.shl.com/products/product-catalog/view/metallurgical-engineering-new/,N/A,K,Yes,No,['knowledge']
+MFS 360 Enterprise Leadership Report,https://www.shl.com/products/product-catalog/view/mfs-360-enterprise-leadership-report/,N/A,D,Yes,No,['management']
+MFS 360 UCF Group Report,https://www.shl.com/products/product-catalog/view/mfs-360-ucf-group-report/,N/A,D,Yes,No,['general']
+MFS 360 UCF Performance Potential Dev Tips Report,https://www.shl.com/products/product-catalog/view/mfs-360-ucf-performance-potential-dev-tips-report/,N/A,D,Yes,No,['general']
+MFS 360 UCF Standard Report,https://www.shl.com/products/product-catalog/view/mfs-360-ucf-standard-report/,N/A,D,Yes,No,['general']
+Micro Focus Unified Functional Testing (New),https://www.shl.com/products/product-catalog/view/micro-focus-unified-functional-testing-new/,N/A,K,Yes,No,['knowledge']
+Microservices (New),https://www.shl.com/products/product-catalog/view/microservices-new/,N/A,K,Yes,No,['knowledge']
+Microsoft Dynamics Development (New),https://www.shl.com/products/product-catalog/view/microsoft-dynamics-development-new/,N/A,K,Yes,No,['knowledge']
+Microsoft Excel 365 - Essentials (New),https://www.shl.com/products/product-catalog/view/microsoft-excel-365-essentials-new/,N/A,"K, S",Yes,No,['knowledge']
+Microsoft Excel 365 (New),https://www.shl.com/products/product-catalog/view/microsoft-excel-365-new/,N/A,"K, S",Yes,No,['knowledge']
+Microsoft Outlook 2013 (adaptive),https://www.shl.com/products/product-catalog/view/microsoft-outlook-2013-adaptive/,N/A,K,Yes,Yes,['knowledge']
+Microsoft PowerPoint 365 - Essentials (New),https://www.shl.com/products/product-catalog/view/microsoft-powerpoint-365-essentials-new/,N/A,"K, S",Yes,No,['knowledge']
+Microsoft SQL Server 2014 Programming,https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/,N/A,K,Yes,Yes,"['technical', 'knowledge']"
+Microsoft Windows Server 2012 Administration,https://www.shl.com/products/product-catalog/view/microsoft-windows-server-2012-administration/,N/A,K,Yes,Yes,['knowledge']
+Microsoft Word 365 - Essentials (New),https://www.shl.com/products/product-catalog/view/microsoft-word-365-essentials-new/,N/A,"K, S",Yes,No,['knowledge']
+Microsoft Word 365 (New),https://www.shl.com/products/product-catalog/view/microsoft-word-365-new/,N/A,"S, K",Yes,No,['knowledge']
+Mineral Engineering (New),https://www.shl.com/products/product-catalog/view/mineral-engineering-new/,N/A,K,Yes,No,['knowledge']
+Mining Engineering (New),https://www.shl.com/products/product-catalog/view/mining-engineering-new/,N/A,K,Yes,No,['knowledge']
+Mobility (New),https://www.shl.com/products/product-catalog/view/mobility-new/,N/A,K,Yes,No,['knowledge']
+Molecular Biology (New),https://www.shl.com/products/product-catalog/view/molecular-biology-new/,N/A,K,Yes,No,['knowledge']
+MongoDB (New),https://www.shl.com/products/product-catalog/view/mongodb-new/,N/A,K,Yes,No,['knowledge']
+Motivation Questionnaire MQM5,https://www.shl.com/products/product-catalog/view/motivation-questionnaire-mqm5/,N/A,P,Yes,No,['personality']
+MQ Candidate Motivation Report,https://www.shl.com/products/product-catalog/view/mq-candidate-motivation-report/,N/A,P,Yes,No,['personality']
+MQ Employee Motivation Report,https://www.shl.com/products/product-catalog/view/mq-employee-motivation-report/,N/A,P,Yes,No,['personality']
+MQ Motivation Report Pack,https://www.shl.com/products/product-catalog/view/mq-motivation-report-pack/,N/A,P,Yes,No,['personality']
+MQ Profile,https://www.shl.com/products/product-catalog/view/mq-profile/,N/A,P,Yes,No,['personality']
+MS Access (New),https://www.shl.com/products/product-catalog/view/ms-access-new/,N/A,K,Yes,No,['knowledge']
+MS Excel (New),https://www.shl.com/products/product-catalog/view/ms-excel-new/,N/A,K,Yes,No,['knowledge']
+MS Office Basic Computer Literacy (New),https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-new/,N/A,K,Yes,No,['knowledge']
+MS Office Basic Computer Literacy (Sim) (New),https://www.shl.com/products/product-catalog/view/ms-office-basic-computer-literacy-sim-new/,N/A,S,Yes,No,['general']
+MS PowerPoint (New),https://www.shl.com/products/product-catalog/view/ms-powerpoint-new/,N/A,K,Yes,No,['knowledge']
+MS Word (New),https://www.shl.com/products/product-catalog/view/ms-word-new/,N/A,K,Yes,No,['knowledge']
+MuleSoft Development (New),https://www.shl.com/products/product-catalog/view/mulesoft-development-new/,N/A,K,Yes,No,['knowledge']
+Multitasking Ability,https://www.shl.com/products/product-catalog/view/multitasking-ability/,N/A,"A, K, S",Yes,No,"['ability', 'cognitive', 'knowledge']"
+Networking and Implementation (New),https://www.shl.com/products/product-catalog/view/networking-and-implementation-new/,N/A,K,Yes,No,['knowledge']
+Node.js (New),https://www.shl.com/products/product-catalog/view/node-js-new/,N/A,K,Yes,No,['knowledge']
+Nursing (New),https://www.shl.com/products/product-catalog/view/nursing-new/,N/A,K,Yes,No,['knowledge']
+Occupational Personality Questionnaire OPQ32r,https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r/,N/A,P,Yes,No,['personality']
+Operations Management (New),https://www.shl.com/products/product-catalog/view/operations-management-new/,N/A,K,Yes,No,['knowledge']
+OPQ Candidate Plus Report,https://www.shl.com/products/product-catalog/view/opq-candidate-plus-report/,N/A,P,Yes,No,['personality']
+OPQ Candidate Report 2.0,https://www.shl.com/products/product-catalog/view/opq-candidate-report-2-0/,N/A,P,Yes,No,['personality']
+OPQ Emotional Intelligence Report,https://www.shl.com/products/product-catalog/view/opq-emotional-intelligence-report/,N/A,P,Yes,No,['personality']
+OPQ Leadership Report,https://www.shl.com/products/product-catalog/view/opq-leadership-report/,N/A,P,Yes,No,"['management', 'personality']"
+OPQ Manager Plus Report,https://www.shl.com/products/product-catalog/view/opq-manager-plus-report/,N/A,P,Yes,No,"['management', 'personality']"
+OPQ Manager Plus Report 2.0,https://www.shl.com/products/product-catalog/view/opq-manager-plus-report-2-0/,N/A,P,Yes,No,"['management', 'personality']"
+OPQ Maximising your Learning Report,https://www.shl.com/products/product-catalog/view/opq-maximising-your-learning-report/,N/A,P,Yes,No,['personality']
+OPQ MQ Sales Report,https://www.shl.com/products/product-catalog/view/opq-mq-sales-report/,N/A,P,Yes,No,"['sales', 'personality']"
+OPQ Premium Plus Report,https://www.shl.com/products/product-catalog/view/opq-premium-plus-report/,N/A,P,Yes,No,['personality']
+OPQ Premium Plus Report 2.0,https://www.shl.com/products/product-catalog/view/opq-premium-plus-report-2-0/,N/A,P,Yes,No,['personality']
+OPQ Profile Report,https://www.shl.com/products/product-catalog/view/opq-profile-report/,N/A,P,Yes,No,['personality']
+OPQ Team Impact Group Development Report,https://www.shl.com/products/product-catalog/view/opq-team-impact-group-development-report/,N/A,P,Yes,No,['personality']
+OPQ Team Impact Individual Development Report,https://www.shl.com/products/product-catalog/view/opq-team-impact-individual-development-report/,N/A,P,Yes,No,['personality']
+OPQ Team Impact Selection Report,https://www.shl.com/products/product-catalog/view/opq-team-impact-selection-report/,N/A,P,Yes,No,['personality']
+OPQ Team Types & Leadership Styles Profile,https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-profile/,N/A,P,Yes,No,"['management', 'personality']"
+OPQ Team Types and Leadership Styles Report,https://www.shl.com/products/product-catalog/view/opq-team-types-and-leadership-styles-report/,N/A,P,Yes,No,"['management', 'personality']"
+OPQ UCF Development Action Planner Report 1.0,https://www.shl.com/products/product-catalog/view/opq-ucf-development-action-planner-report/,N/A,P,Yes,No,['personality']
+OPQ UCF Development Action Planner Report 2.0,https://www.shl.com/products/product-catalog/view/opq-ucf-development-action-planner-report-2-0/,N/A,P,Yes,No,['personality']
+OPQ Universal Competency Report 1.0,https://www.shl.com/products/product-catalog/view/opq-universal-competency-report/,N/A,P,Yes,No,['personality']
+OPQ Universal Competency Report 2.0,https://www.shl.com/products/product-catalog/view/opq-universal-competency-report-2-0/,N/A,P,Yes,No,['personality']
+OPQ User and Managers Report,https://www.shl.com/products/product-catalog/view/opq-user-and-managers-report/,N/A,P,Yes,No,"['management', 'personality']"
+OPQ User Report,https://www.shl.com/products/product-catalog/view/opq-user-report/,N/A,"P, S",Yes,No,['personality']
+Oracle DBA (Advanced Level) (New),https://www.shl.com/products/product-catalog/view/oracle-dba-advanced-level-new/,N/A,K,Yes,No,['knowledge']
+Oracle DBA (Entry Level) (New),https://www.shl.com/products/product-catalog/view/oracle-dba-entry-level-new/,N/A,K,Yes,No,['knowledge']
+Oracle PL/SQL (New),https://www.shl.com/products/product-catalog/view/oracle-plsql-new/,N/A,K,Yes,No,['knowledge']
+Oracle WebLogic Server (New),https://www.shl.com/products/product-catalog/view/oracle-weblogic-server-new/,N/A,K,Yes,No,['knowledge']
+Organic Chemistry (New),https://www.shl.com/products/product-catalog/view/organic-chemistry-new/,N/A,K,Yes,No,['knowledge']
+Paint Technology (New),https://www.shl.com/products/product-catalog/view/paint-technology-new/,N/A,K,Yes,No,['knowledge']
+Pediatrics (New),https://www.shl.com/products/product-catalog/view/pediatrics-new/,N/A,K,Yes,No,['knowledge']
+Pega Development (New),https://www.shl.com/products/product-catalog/view/pega-development-new/,N/A,K,Yes,No,['knowledge']
+Perl (New),https://www.shl.com/products/product-catalog/view/perl-new/,N/A,K,Yes,No,['knowledge']
+Petrochemical Engineering (New),https://www.shl.com/products/product-catalog/view/petrochemical-engineering-new/,N/A,K,Yes,No,['knowledge']
+Petroleum Engineering (New),https://www.shl.com/products/product-catalog/view/petroleum-engineering-new/,N/A,K,Yes,No,['knowledge']
+Pharmaceutical Analysis (New),https://www.shl.com/products/product-catalog/view/pharmaceutical-analysis-new/,N/A,K,Yes,No,['knowledge']
+Pharmaceutical Chemistry (New),https://www.shl.com/products/product-catalog/view/pharmaceutical-chemistry-new/,N/A,K,Yes,No,['knowledge']
+Pharmaceutical Science (New),https://www.shl.com/products/product-catalog/view/pharmaceutical-science-new/,N/A,K,Yes,No,['knowledge']
+Pharmaceutics (New),https://www.shl.com/products/product-catalog/view/pharmaceutics-new/,N/A,K,Yes,No,['knowledge']
+Pharmacology (New),https://www.shl.com/products/product-catalog/view/pharmacology-new/,N/A,K,Yes,No,['knowledge']
+PHP (New),https://www.shl.com/products/product-catalog/view/php-new/,N/A,K,Yes,No,['knowledge']
+PJM Development Report,https://www.shl.com/products/product-catalog/view/pjm-development-report/,N/A,"C, A, P",Yes,No,"['ability', 'competency', 'personality']"
+PJM Selection Report,https://www.shl.com/products/product-catalog/view/pjm-selection-report/,N/A,"A, C, P",Yes,No,"['ability', 'competency', 'personality']"
+Polymer Engineering (New),https://www.shl.com/products/product-catalog/view/polymer-engineering-new/,N/A,K,Yes,No,['knowledge']
+Power Electronics and Drives (New),https://www.shl.com/products/product-catalog/view/power-electronics-and-drives-new/,N/A,K,Yes,No,['knowledge']
+Power System Engineering (New),https://www.shl.com/products/product-catalog/view/power-system-engineering-new/,N/A,K,Yes,No,['knowledge']
+Prism (New),https://www.shl.com/products/product-catalog/view/prism-new/,N/A,K,Yes,No,['knowledge']
+Production and Industrial Engineering (New),https://www.shl.com/products/product-catalog/view/production-and-industrial-engineering-new/,N/A,K,Yes,No,['knowledge']
+Production Engineering (New),https://www.shl.com/products/product-catalog/view/production-engineering-new/,N/A,K,Yes,No,['knowledge']
+Programming Concepts,https://www.shl.com/products/product-catalog/view/programming-concepts/,N/A,K,Yes,Yes,"['technical', 'knowledge']"
+Project Management (2013),https://www.shl.com/products/product-catalog/view/project-management-2013/,N/A,K,Yes,Yes,['knowledge']
+Proofreading v1,https://www.shl.com/products/product-catalog/view/proofreading-v1/,N/A,K,Yes,No,['knowledge']
+Python (New),https://www.shl.com/products/product-catalog/view/python-new/,N/A,K,Yes,No,"['technical', 'knowledge']"
+R Programming (New),https://www.shl.com/products/product-catalog/view/r-programming-new/,N/A,K,Yes,No,"['technical', 'knowledge']"
+ReactJS (New),https://www.shl.com/products/product-catalog/view/reactjs-new/,N/A,K,Yes,No,['knowledge']
+Reading Comprehension - English v1,https://www.shl.com/products/product-catalog/view/reading-comprehension-english-v1/,N/A,A,Yes,Yes,['ability']
+Reading Comprehension - Spanish v1,https://www.shl.com/products/product-catalog/view/reading-comprehension-spanish-v1/,N/A,A,Yes,Yes,['ability']
+Reading Comprehension v2,https://www.shl.com/products/product-catalog/view/reading-comprehension-v2/,N/A,A,Yes,Yes,['ability']
+RemoteWorkQ,https://www.shl.com/products/product-catalog/view/remoteworkq/,N/A,C,Yes,No,['competency']
+RemoteWorkQ Manager Report,https://www.shl.com/products/product-catalog/view/remoteworkq-manager-report/,N/A,C,Yes,No,"['management', 'competency']"
+RemoteWorkQ Participant Report,https://www.shl.com/products/product-catalog/view/remoteworkq-participant-report/,N/A,C,Yes,No,['competency']
+RESTful Web Services (New),https://www.shl.com/products/product-catalog/view/restful-web-services-new/,N/A,K,Yes,No,['knowledge']
+Retail Sales and Service Simulation,https://www.shl.com/products/product-catalog/view/retail-sales-and-service-simulation/,N/A,"B, K, S, A",Yes,No,"['ability', 'sales', 'behavioral', 'knowledge']"
+Reviewing Forms - US (R1),https://www.shl.com/products/product-catalog/view/reviewing-forms-us-r1/,N/A,K,Yes,No,['knowledge']
+Ruby (New),https://www.shl.com/products/product-catalog/view/ruby-new/,N/A,K,Yes,No,['knowledge']
+Ruby on Rails (New),https://www.shl.com/products/product-catalog/view/ruby-on-rails-new/,N/A,K,Yes,No,['knowledge']
+Sales & Service Phone Simulation,https://www.shl.com/products/product-catalog/view/sales-and-service-phone-simulation/,N/A,"S, B",Yes,No,"['sales', 'behavioral']"
+Sales & Service Phone Solution,https://www.shl.com/products/product-catalog/view/sales-and-service-phone-solution/,N/A,"B, P, S",Yes,No,"['sales', 'behavioral', 'personality']"
+Sales Interview Guide,https://www.shl.com/products/product-catalog/view/sales-interview-guide/,N/A,"P, P",Yes,No,"['sales', 'personality']"
+Sales Profiler Cards,https://www.shl.com/products/product-catalog/view/sales-profiler-cards/,N/A,P,Yes,No,"['sales', 'personality']"
+Sales Transformation 1.0 - Individual Contributor,https://www.shl.com/products/product-catalog/view/sales-transformation-report-individual-contributor/,N/A,P,Yes,No,"['sales', 'personality']"
+Sales Transformation 2.0 - Individual Contributor,https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/,N/A,P,Yes,No,"['sales', 'personality']"
+Sales Transformation Report 1.0 - Sales Manager,https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/,N/A,P,Yes,No,"['management', 'sales', 'personality']"
+Sales Transformation Report 2.0 - Sales Manager,https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/,N/A,P,Yes,No,"['management', 'sales', 'personality']"
+Salesforce Development (New),https://www.shl.com/products/product-catalog/view/salesforce-development-new/,N/A,K,Yes,No,"['sales', 'knowledge']"
+SAP ABAP (Advanced Level) (New),https://www.shl.com/products/product-catalog/view/sap-abap-advanced-level-new/,N/A,K,Yes,No,['knowledge']
+SAP ABAP (Intermediate Level) (New),https://www.shl.com/products/product-catalog/view/sap-abap-intermediate-level-new/,N/A,K,Yes,No,['knowledge']
+SAP Basis (New),https://www.shl.com/products/product-catalog/view/sap-basis-new/,N/A,K,Yes,No,['knowledge']
+SAP Business Objects WebI (New),https://www.shl.com/products/product-catalog/view/sap-business-objects-webi-new/,N/A,K,Yes,No,['knowledge']
+SAP BW (Business Warehouse) (New),https://www.shl.com/products/product-catalog/view/sap-bw-business-warehouse-new/,N/A,K,Yes,No,['knowledge']
+SAP HCM (Human Capital Management) (New),https://www.shl.com/products/product-catalog/view/sap-hcm-human-capital-management-new/,N/A,K,Yes,No,['knowledge']
+SAP Hybris (New),https://www.shl.com/products/product-catalog/view/sap-hybris-new/,N/A,K,Yes,No,['knowledge']
+SAP Materials Management (New),https://www.shl.com/products/product-catalog/view/sap-materials-management-new/,N/A,K,Yes,No,['knowledge']
+SAP SD (Sales and Distribution) (New),https://www.shl.com/products/product-catalog/view/sap-sd-sales-and-distribution-new/,N/A,K,Yes,No,"['sales', 'knowledge']"
+Search Engine Optimization (New),https://www.shl.com/products/product-catalog/view/search-engine-optimization-new/,N/A,K,Yes,No,['knowledge']
+Selenium (New),https://www.shl.com/products/product-catalog/view/selenium-new/,N/A,K,Yes,No,['knowledge']
+Shell Scripting (New),https://www.shl.com/products/product-catalog/view/shell-scripting-new/,N/A,K,Yes,No,['knowledge']
+SHL Verify Interactive - Inductive Reasoning,https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning/,N/A,"A, S",Yes,Yes,['ability']
+SHL Verify Interactive – Deductive Reasoning,https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/,N/A,"A, S",Yes,Yes,['ability']
+SHL Verify Interactive – Numerical Reasoning,https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/,N/A,"A, S",Yes,Yes,['ability']
+SHL Verify Interactive G+,https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g/,N/A,A,Yes,Yes,['ability']
+SHL Verify Interactive Numerical Calculation,https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-calculation/,N/A,A,Yes,Yes,['ability']
+Siebel Development (New),https://www.shl.com/products/product-catalog/view/siebel-development-new/,N/A,K,Yes,No,['knowledge']
+Smart Interview Live,https://www.shl.com/products/product-catalog/view/smart-interview-live/,N/A,P,Yes,No,['personality']
+Smart Interview Live Coding,https://www.shl.com/products/product-catalog/view/smart-interview-live-coding/,N/A,K,Yes,No,"['technical', 'knowledge']"
+Smart Interview On Demand,https://www.shl.com/products/product-catalog/view/smart-interview-on-demand/,N/A,P,Yes,No,['personality']
+Social Media (New),https://www.shl.com/products/product-catalog/view/social-media-new/,N/A,K,Yes,No,['knowledge']
+Software Business Analysis,https://www.shl.com/products/product-catalog/view/software-business-analysis/,N/A,K,Yes,Yes,['knowledge']
+SonarQube (New),https://www.shl.com/products/product-catalog/view/sonarqube-new/,N/A,K,Yes,No,['knowledge']
+Spelling (U.S.) (New),https://www.shl.com/products/product-catalog/view/spelling-u-s-new/,N/A,K,Yes,No,['knowledge']
+Split Screen Typing Test - Form 1,https://www.shl.com/products/product-catalog/view/split-screen-typing-test-form-1/,N/A,"A, K",Yes,No,"['ability', 'knowledge']"
+Spring (New),https://www.shl.com/products/product-catalog/view/spring-new/,N/A,K,Yes,No,['knowledge']
+SQL (New),https://www.shl.com/products/product-catalog/view/sql-new/,N/A,K,Yes,No,['knowledge']
+SQL Server (New),https://www.shl.com/products/product-catalog/view/sql-server-new/,N/A,K,Yes,No,['knowledge']
+SQL Server Analysis Services (SSAS) (New),https://www.shl.com/products/product-catalog/view/sql-server-analysis-services-%28ssas%29-%28new%29/,N/A,K,Yes,No,['knowledge']
+SQL Server Integration Services (SSIS) (New),https://www.shl.com/products/product-catalog/view/sql-server-integration-services-ssis-new/,N/A,K,Yes,No,['knowledge']
+SQL Server Reporting Services (SSRS) (New),https://www.shl.com/products/product-catalog/view/sql-server-reporting-services-ssrs-new/,N/A,K,Yes,No,['knowledge']
+Statistical Analysis System (New),https://www.shl.com/products/product-catalog/view/statistical-analysis-system-new/,N/A,K,Yes,No,['knowledge']
+Struts (New),https://www.shl.com/products/product-catalog/view/struts-new/,N/A,K,Yes,No,['knowledge']
+SVAR - Spoken English (AUS),https://www.shl.com/products/product-catalog/view/svar-spoken-english-aus/,N/A,S,Yes,No,['general']
+SVAR - Spoken English (Indian Accent)  (New),https://www.shl.com/products/product-catalog/view/svar-spoken-english-indian-accent-new/,N/A,S,Yes,No,['general']
+SVAR - Spoken English (U.K.),https://www.shl.com/products/product-catalog/view/svar-spoken-english-u-k/,N/A,S,Yes,No,['general']
+SVAR - Spoken English (US)  (New),https://www.shl.com/products/product-catalog/view/svar-spoken-english-us-new/,N/A,S,Yes,No,['general']
+SVAR - Spoken French (Canadian) (New),https://www.shl.com/products/product-catalog/view/svar-spoken-french-canadian-new/,N/A,S,Yes,No,['general']
+SVAR - Spoken French (European) (New),https://www.shl.com/products/product-catalog/view/svar-spoken-french-european-new/,N/A,S,Yes,No,['general']
+SVAR - Spoken Spanish (Castilian) (New),https://www.shl.com/products/product-catalog/view/svar-spoken-spanish-castilian-new/,N/A,S,Yes,No,['general']
+SVAR - Spoken Spanish (North American) (New),https://www.shl.com/products/product-catalog/view/svar-spoken-spanish-north-american-new/,N/A,S,Yes,No,['general']
+Swing (New),https://www.shl.com/products/product-catalog/view/swing-new/,N/A,K,Yes,No,['knowledge']
+Tableau (New),https://www.shl.com/products/product-catalog/view/tableau-new/,N/A,K,Yes,No,['knowledge']
+Telecommunications Engineering (New),https://www.shl.com/products/product-catalog/view/telecommunications-engineering-new/,N/A,K,Yes,No,['knowledge']
+Teradata Development (New),https://www.shl.com/products/product-catalog/view/teradata-development-new/,N/A,K,Yes,No,['knowledge']
+Time Management (U.S.),https://www.shl.com/products/product-catalog/view/time-management-u-s/,N/A,K,Yes,Yes,['knowledge']
+Training Development,https://www.shl.com/products/product-catalog/view/training-development/,N/A,K,Yes,Yes,['knowledge']
+Typing (New),https://www.shl.com/products/product-catalog/view/typing-new/,N/A,S,Yes,No,['general']
+UiPath RPA Development (New),https://www.shl.com/products/product-catalog/view/uipath-rpa-development-new/,N/A,K,Yes,No,['knowledge']
+Universal Competency Framework Interview Guide,https://www.shl.com/products/product-catalog/view/universal-competency-framework-interview-guide/,N/A,"C, P",Yes,No,"['competency', 'personality']"
+Universal Competency Framework Job profiling guide,https://www.shl.com/products/product-catalog/view/universal-competency-framework-job-profiling-guide/,N/A,"C, P",Yes,No,"['competency', 'personality']"
+Universal Competency Framework Profiler Cards (44),https://www.shl.com/products/product-catalog/view/universal-competency-framework-profiler-cards-44/,N/A,"C, P",Yes,No,"['competency', 'personality']"
+UNIX (New),https://www.shl.com/products/product-catalog/view/unix-new/,N/A,K,Yes,No,['knowledge']
+VB.NET (New),https://www.shl.com/products/product-catalog/view/vb-net-new/,N/A,K,Yes,No,"['technical', 'knowledge']"
+Verify - Deductive Reasoning,https://www.shl.com/products/product-catalog/view/verify-deductive-reasoning/,N/A,A,Yes,Yes,['ability']
+Verify - Following Instructions,https://www.shl.com/products/product-catalog/view/verify-following-instructions/,N/A,A,Yes,No,['ability']
+Verify - G+,https://www.shl.com/products/product-catalog/view/verify-g/,N/A,A,Yes,Yes,['ability']
+Verify - General Ability Screen,https://www.shl.com/products/product-catalog/view/verify-general-ability-screen/,N/A,A,Yes,Yes,"['ability', 'cognitive']"
+Verify - Inductive Reasoning (2014),https://www.shl.com/products/product-catalog/view/verify-inductive-reasoning-2014/,N/A,A,Yes,Yes,['ability']
+Verify - Numerical Ability,https://www.shl.com/products/product-catalog/view/verify-numerical-ability/,N/A,A,Yes,Yes,"['ability', 'cognitive']"
+Verify - Technical Checking - Next Generation,https://www.shl.com/products/product-catalog/view/verify-technical-checking-next-generation/,N/A,A,Yes,No,"['ability', 'technical']"
+Verify - Verbal Ability - Next Generation,https://www.shl.com/products/product-catalog/view/verify-verbal-ability-next-generation/,N/A,A,Yes,Yes,"['ability', 'cognitive']"
+Verify - Working with Information,https://www.shl.com/products/product-catalog/view/verify-working-with-information/,N/A,A,Yes,No,['ability']
+Verify G+ - Ability Test Report,https://www.shl.com/products/product-catalog/view/verify-g-ability-test-report/,N/A,A,Yes,No,"['ability', 'cognitive']"
+Verify G+ - Candidate Report,https://www.shl.com/products/product-catalog/view/verify-g-candidate-report/,N/A,A,Yes,No,['ability']
+Verify Interactive Ability Report,https://www.shl.com/products/product-catalog/view/verify-interactive-ability-report/,N/A,A,Yes,No,"['ability', 'cognitive']"
+Verify Interactive G+ Candidate Report,https://www.shl.com/products/product-catalog/view/verify-interactive-g-candidate-report/,N/A,A,Yes,No,['ability']
+Verify Interactive G+ Report,https://www.shl.com/products/product-catalog/view/verify-interactive-g-report/,N/A,A,Yes,No,['ability']
+Verify Interactive Process Monitoring,https://www.shl.com/products/product-catalog/view/verify-interactive-process-monitoring/,N/A,A,Yes,No,['ability']
+Virtual Assessment and Development Centers,https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/,N/A,P,Yes,No,['personality']
+Visual Basic for Applications (New),https://www.shl.com/products/product-catalog/view/visual-basic-for-applications-new/,N/A,K,Yes,No,['knowledge']
+Visual Comparison - UK,https://www.shl.com/products/product-catalog/view/visual-comparison-uk/,N/A,K,Yes,No,['knowledge']
+Visual Comparison - US,https://www.shl.com/products/product-catalog/view/visual-comparison-us/,N/A,K,Yes,No,['knowledge']
+VLSI and Embedded Systems (New),https://www.shl.com/products/product-catalog/view/vlsi-and-embedded-systems-new/,N/A,K,Yes,No,['knowledge']
+What Is The Value - US,https://www.shl.com/products/product-catalog/view/what-is-the-value-us/,N/A,K,Yes,Yes,['knowledge']
+Workplace Administration Skills (New),https://www.shl.com/products/product-catalog/view/workplace-administration-skills-new/,N/A,K,Yes,No,['knowledge']
+Workplace Health and Safety (New),https://www.shl.com/products/product-catalog/view/workplace-health-and-safety-new/,N/A,K,Yes,No,['knowledge']
+WriteX - Email Writing (Customer Service) (New),https://www.shl.com/products/product-catalog/view/writex-email-writing-customer-service-new/,N/A,S,Yes,No,['customer-service']
+WriteX - Email Writing (Managerial) (New),https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/,N/A,S,Yes,No,['management']
+WriteX - Email Writing (Sales) (New),https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/,N/A,"B, S",Yes,No,"['sales', 'behavioral']"
+Written English v1,https://www.shl.com/products/product-catalog/view/written-english-v1/,N/A,K,Yes,Yes,['knowledge']
+Written Spanish,https://www.shl.com/products/product-catalog/view/written-spanish/,N/A,K,Yes,Yes,['knowledge']
+Zabbix (New),https://www.shl.com/products/product-catalog/view/zabbix-new/,N/A,K,Yes,No,['knowledge']
+360 Digital Report,https://www.shl.com/products/product-catalog/view/360-digital-report/,N/A,D,Yes,No,['general']
+360° Multi-Rater Feedback System (MFS),https://www.shl.com/products/product-catalog/view/360-multi-rater-feedback-system-mfs/,N/A,"D, P",Yes,No,['personality']
